@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ownersuite" duration-ms="56156" started-at="2018-09-03T08:53:18Z" finished-at="2018-09-03T08:54:14Z">
+    <groups>
+    </groups>
+    <test name="ownersuite" duration-ms="56156" started-at="2018-09-03T08:53:18Z" finished-at="2018-09-03T08:54:14Z">
+      <class name="com.owner.FindOwnerSuiteTest">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.owner.FindOwnerSuiteTest@3a883ce7]" name="init" is-config="true" duration-ms="7238" started-at="2018-09-03T14:23:11Z" finished-at="2018-09-03T14:23:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="killBrowser()[pri:0, instance:com.owner.FindOwnerSuiteTest@3a883ce7]" name="killBrowser" is-config="true" duration-ms="1219" started-at="2018-09-03T14:24:14Z" finished-at="2018-09-03T14:24:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killBrowser -->
+      </class> <!-- com.owner.FindOwnerSuiteTest -->
+      <class name="com.owner.FindOwnerTest">
+        <test-method status="PASS" signature="AddOwner()[pri:0, instance:com.owner.FindOwnerTest@57855c9a]" name="AddOwner" duration-ms="36606" started-at="2018-09-03T14:23:18Z" finished-at="2018-09-03T14:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddOwner -->
+        <test-method status="PASS" signature="SearchOwner()[pri:0, instance:com.owner.FindOwnerTest@57855c9a]" name="SearchOwner" duration-ms="19538" started-at="2018-09-03T14:23:54Z" finished-at="2018-09-03T14:24:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchOwner -->
+      </class> <!-- com.owner.FindOwnerTest -->
+    </test> <!-- ownersuite -->
+  </suite> <!-- ownersuite -->
+  <suite name="SmokeSuite" duration-ms="0" started-at="2018-09-03T08:54:16Z" finished-at="2018-09-03T08:54:16Z">
+    <groups>
+    </groups>
+  </suite> <!-- SmokeSuite -->
+</testng-results>

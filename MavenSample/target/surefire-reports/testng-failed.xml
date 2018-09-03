@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [ownersuite]">
+  <parameter name="sBrowser" value="Chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.vocalink.utility.ExtentReporterNG"/>
+  </listeners>
+  <test name="ownersuite(failed)">
+    <classes>
+      <class name="com.owner.FindOwnerSuiteTest">
+        <methods>
+          <include name="init"/>
+          <include name="killBrowser"/>
+        </methods>
+      </class> <!-- com.owner.FindOwnerSuiteTest -->
+      <class name="com.owner.FindOwnerTest">
+        <methods>
+          <include name="SearchOwner"/>
+        </methods>
+      </class> <!-- com.owner.FindOwnerTest -->
+    </classes>
+  </test> <!-- ownersuite(failed) -->
+</suite> <!-- Failed suite [ownersuite] -->
